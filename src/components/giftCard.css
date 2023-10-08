@@ -1,0 +1,258 @@
+.gift-card {
+  position: relative;
+  margin: 20px;
+  width: 94vw;
+  max-width: 1142px;
+  height: 542px;
+  border-radius: 25px;
+  border: 5px solid rgba(149, 152, 157, 0.1);
+  overflow: hidden;
+}
+
+.gift-background_img {
+  position: absolute;
+  height: 542px;
+  top: 0px;
+  left: 35vw;
+  z-index: -10;
+}
+
+.gift-sheep_img {
+  position: absolute;
+  bottom: -7vw;
+  right: -20px;
+  width: clamp(18rem, 25vw + 10rem, 50rem);
+}
+
+.gift-welcome_img {
+  position: absolute;
+  width: clamp(25.6rem, 50vw + 10rem, 50rem);
+  left: clamp(2.56rem, 5vw + 1rem, 15rem);
+  top: 20px;
+}
+
+.gift-header_text_box {
+  position: absolute;
+  top: clamp(11.5rem, 20vw + 5rem, 22rem);
+  left: clamp(2.56rem, 5vw + 1rem, 15rem);
+  width: 80vw;
+}
+
+.gift-header_text {
+  position: relative;
+  color: var(--color-primary);
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.gift-form_box {
+  position: relative;
+  top: 0;
+}
+
+.gift-form_input {
+  position: relative;
+  top: -35px;
+  width: 200px;
+  height: 15px;
+  padding: 10px;
+  border: 1px solid #95989d56;
+  font-size: 1.6rem;
+}
+
+.gift-code_input {
+  text-align: center;
+  cursor: not-allowed;
+  font-weight: 700;
+}
+
+.gift-email_input::placeholder {
+  opacity: 0.2;
+  padding-left: 25px;
+}
+
+.gift-form_email_box {
+  position: relative;
+  top: -40px;
+}
+
+.gift-email_icon {
+  position: absolute;
+  top: 37px;
+  left: 15px;
+  z-index: 10;
+  width: 15px;
+  fill: var(--color-primary);
+  opacity: 0.2;
+}
+
+.gift-submit_button {
+  position: absolute;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding-top: 2px;
+  left: 0;
+  top: 80px;
+  width: 135px;
+  height: 40px;
+  border-radius: 500px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(270deg, #f33801 -2.96%, #da0d00 105.19%);
+}
+
+.gift-submit_button:hover {
+  background: #da0d00;
+}
+
+.gift-personal-data_box {
+  position: absolute;
+  width: 35vw;
+  top: 125px;
+}
+
+.gift-personal-data_text {
+  opacity: 0.7;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 520px) {
+  .gift-card {
+    height: 702px;
+  }
+
+  .gift-header_text {
+    font-size: 1.6rem;
+    width: 60vw;
+  }
+
+  .gift-sheep_img {
+    bottom: -7vw;
+    right: -20px;
+    width: clamp(31rem, 37vw + 10rem, 41rem);
+  }
+
+  .gift-background_img {
+    height: 702px;
+    left: 36vw;
+  }
+
+  .gift-form_input {
+    width: 215px;
+    height: 29px;
+    font-size: 1.5rem;
+  }
+
+  .gift-email_icon {
+    top: 44px;
+  }
+
+  .gift-form_box p {
+    width: 150px;
+  }
+
+  .gift-submit_button {
+    font-size: 1.5rem;
+    padding-top: 2px;
+    top: 100px;
+    width: 170px;
+    height: 50px;
+  }
+
+  .gift-personal-data_text {
+    opacity: 0.7;
+    font-size: 1rem;
+    width: 35vw;
+  }
+
+  .gift-personal-data_box {
+    top: 145px;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .gift-background_img {
+    left: 45vw;
+  }
+
+  .gift-welcome_img {
+    margin-top: 30px;
+  }
+
+  .gift-form_input {
+    left: 150px;
+  }
+
+  .gift-email_icon {
+    top: 4px;
+    left: 165px;
+  }
+
+  .gift-form_box p {
+    top: 40px;
+  }
+
+  .gift-header_text_box {
+    margin-top: 50px;
+  }
+
+  .gift-header_text {
+    width: 50vw;
+  }
+
+  .gift-submit_button {
+    margin-top: 10px;
+  }
+
+  .gift-personal-data_box {
+    top: 155px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .gift-background_img {
+    left: 620px;
+  }
+
+  .gift-sheep_img {
+    bottom: -60px;
+    right: -15px;
+    width: clamp(31rem, 37vw + 10rem, 41rem);
+  }
+
+  .gift-header_text {
+    width: 420px;
+  }
+
+  .gift-form_box p {
+    top: 20px;
+  }
+
+  .gift-form_input {
+    top: -53px;
+  }
+
+  .gift-email_icon {
+    width: 16px;
+    top: 5.5px;
+  }
+
+  .gift-form_email_box {
+    top: -68px;
+  }
+
+  .gift-submit_button {
+    top: 80px;
+  }
+
+  .gift-personal-data_box {
+    top: 140px;
+  }
+
+  .gift-form_input {
+    width: 260px;
+  }
+}
