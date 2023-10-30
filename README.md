@@ -22,7 +22,7 @@ Seznam souborů
 ![example](https://github.com/AdamBurysek/shean-gift-card/assets/114564710/12e1883d-138f-4391-9af2-6a5c481a3f36)
 
 # Odkaz na web
-[[https://adamplanet.cz/ostatniweby/metalquiz/](https://adamplanet.cz/ostatniweby/sheengiftcard/)]([https://adamplanet.cz/ostatniweby/metalquiz/](https://adamplanet.cz/ostatniweby/sheengiftcard/))
+[https://adamplanet.cz/ostatniweby/sheengiftcard/](https://adamplanet.cz/ostatniweby/sheengiftcard/)
 #
 #
 #
